@@ -1,54 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto+Mono:wght@200;300;400;500&display=swap');
 
 :root {
-    --primary-light: #E9ECEF;
-    --primary-dark: #333;
-    --secondary-light: #F8F9FA;
+  --primary-light: #e9ecef;
+  --primary-dark: #333;
+  --secondary-light: #f8f9fa;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    border-style: border-box;
+  margin: 0;
+  padding: 0;
+  border-style: border-box;
 }
 
 body {
-    background-color: var(--primary-light);
-    font-family: 'Roboto', sans-serif;
+  background-color: var(--primary-light);
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .grid {
-    display: grid;
-    width: 400px;
-    height: 500px;
-    background-color: var(--secondary-light);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: grid;
+  width: 600px;
+  height: 800px;
+  background-color: var(--secondary-light);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 header {
-    text-align: center;
-    padding: 2em;
-    color: var(--primary-dark);
+  text-align: center;
+  padding: 2em;
+  color: var(--primary-dark);
 }
 
 .buttons {
-    display: flex;
-    gap: 1em;
-    margin-top: 2em;
+  display: flex;
+  gap: 1em;
+  margin-top: 2em;
 }
 
 button {
-    padding: 0.5em 1em;
-    border: none;
-    background-color: var(--primary-dark);
-    color: var(--primary-light);
-    border-radius: 2px;
+  padding: 0.5em 1em;
+  border: none;
+  background-color: var(--primary-dark);
+  color: var(--primary-light);
+  border-radius: 2px;
 }
-
